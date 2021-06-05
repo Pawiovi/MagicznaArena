@@ -1,0 +1,74 @@
+unit u_PanelAdministratora;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.StdCtrls, Vcl.Mask,
+  Vcl.DBCtrls, Vcl.ExtCtrls, Vcl.Grids, Vcl.DBGrids, Data.Win.ADODB,
+  Datasnap.Provider, Datasnap.DBClient;
+
+type
+  TfrmPanelAdministratora = class(TForm)
+    DBGrid1: TDBGrid;
+    DBNavigator1: TDBNavigator;
+    edtNazwaA: TDBEdit;
+    edtPktZyciaA: TDBEdit;
+    edtPktAtakuA: TDBEdit;
+    edtPktObronyA: TDBEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    DBGrid2: TDBGrid;
+    DBNavigator2: TDBNavigator;
+    edtNazwaAW: TDBEdit;
+    edtPktZyciaAW: TDBEdit;
+    edtPktAtakuAW: TDBEdit;
+    edtPktObronyAW: TDBEdit;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    ADOConEdycja: TADOConnection;
+    DataSourceKlasy: TDataSource;
+    ClientDataSet1: TClientDataSet;
+    DataSetProvider1: TDataSetProvider;
+    ADOTKlasy: TADOTable;
+    ADOQKlasa: TADOQuery;
+    ADOTWrogowie: TADOTable;
+    DataSourceWrogowie: TDataSource;
+    DBRadioGroup1: TDBRadioGroup;
+    DBRadioGroup2: TDBRadioGroup;
+    RadioButtonId: TRadioButton;
+    RadioButtonNazwa: TRadioButton;
+    RadioButtonPktAtaku: TRadioButton;
+    RadioButton1: TRadioButton;
+    procedure DBGrid1TitleClick(Column: TColumn);
+    procedure DBGrid2TitleClick(Column: TColumn);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPanelAdministratora: TfrmPanelAdministratora;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmPanelAdministratora.DBGrid1TitleClick(Column: TColumn);
+begin
+  ADOTKlasy.IndexFieldNames := Column.FieldName;
+end;
+
+procedure TfrmPanelAdministratora.DBGrid2TitleClick(Column: TColumn);
+begin
+ADOTWrogowie.IndexFieldNames := Column.FieldName;
+end;
+
+end.

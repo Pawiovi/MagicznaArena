@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.377,D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\WersjaFinalna\u_Arena.dfm=D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Werska04\Wersja03\Wersja03\Wersja01\u_Arena.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.107,=C:\Users\Sebastian\Desktop\INTERF\SQLPOPRAWA\Kod źródłowy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.250,C:\Users\Sebastian\Desktop\INTERF\SQLPOPRAWA\Kod źródłowy\u_PanelAdministratora.pas=C:\Users\Sebastian\Desktop\INTERF\SQLPOPRAWA\Kod źródłowy\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.250,C:\Users\Sebastian\Desktop\INTERF\SQLPOPRAWA\Kod źródłowy\u_PanelAdministratora.dfm=C:\Users\Sebastian\Desktop\INTERF\SQLPOPRAWA\Kod źródłowy\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.566,=D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Wersja01\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.412,D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Wersja01\Unit1.pas=D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Wersja01\MagicznaArena.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.183,D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\WersjaFinalna\ProjectIDdBD.dproj=D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Werska04\Wersja03\Wersja03\Wersja01\ProjectIDdBD.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.839,D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\WersjaFinalna\u_OProgramie.dfm=D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Werska04\Wersja03\Wersja03\Wersja01\u_OProgramie.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.411,D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Wersja01\MagicznaArenaIDdBD.pas=D:\Studia 5 sem\Programowanie w środowisku RAD\Projekty\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.969,D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\WersjaFinalna\u_MagicznaArena.pas=D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Werska04\Wersja03\Wersja03\Wersja01\u_MagicznaArena.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.635,=D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Wersja01\u_Arena.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.010,D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Wersja01\ProjectIDdBD.dproj=D:\Studia 5 sem\Programowanie w środowisku RAD\Projekty\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.377,D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\WersjaFinalna\u_Arena.pas=D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Werska04\Wersja03\Wersja03\Wersja01\u_Arena.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.026,D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Wersja03\Wersja01\MagicznaArena.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.581,=D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Wersja01\u_MagicznaArena.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.804,=D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Wersja01\u_OProgramie.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.262,=D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\WersjaFinalna\u_SplashScreen.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.839,D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\WersjaFinalna\u_OProgramie.pas=D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Werska04\Wersja03\Wersja03\Wersja01\u_OProgramie.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.015,D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\WersjaFinalna\MagicznaArenaIDdBD.pas=D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Werska04\Wersja03\Wersja03\Wersja01\MagicznaArenaIDdBD.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.411,D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Wersja01\MagicznaArenaIDdBD.dfm=D:\Studia 5 sem\Programowanie w środowisku RAD\Projekty\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.700,D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\WersjaFinalna\u_Statystyki.dfm=D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Werska04\Wersja03\Wersja03\Wersja01\u_Statystyki.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.015,D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\WersjaFinalna\MagicznaArenaIDdBD.dfm=D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Werska04\Wersja03\Wersja03\Wersja01\MagicznaArenaIDdBD.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.412,D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Wersja01\Unit1.dfm=D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Wersja01\MagicznaArena.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.969,D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\WersjaFinalna\u_MagicznaArena.dfm=D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Werska04\Wersja03\Wersja03\Wersja01\u_MagicznaArena.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.700,D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\WersjaFinalna\u_Statystyki.pas=D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Werska04\Wersja03\Wersja03\Wersja01\u_Statystyki.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.129,=D:\Studia 5 sem\Programowanie w środowisku RAD\Projekty\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.872,=D:\Studia 5 sem\Interfejsy dostępu do baz danych\Projekt zaliczeniowy\Wersje programu\Wersja01\u_Statystyki.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="MagicznaArenaIDdBD.pas"/>
+    <File Path="MagicznaArenaIDdBD.dfm"/>
+    <File Path="u_Arena.pas"/>
+    <File Path="u_Arena.dfm"/>
+    <File Path="u_MagicznaArena.pas"/>
+    <File Path="u_MagicznaArena.dfm"/>
+    <File Path="u_OProgramie.pas"/>
+    <File Path="u_OProgramie.dfm"/>
+    <File Path="u_PanelAdministratora.pas"/>
+    <File Path="u_PanelAdministratora.dfm"/>
+    <File Path="u_SplashScreen.pas"/>
+    <File Path="u_SplashScreen.dfm"/>
+    <File Path="u_Statystyki.pas"/>
+    <File Path="u_Statystyki.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

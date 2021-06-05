@@ -1,0 +1,51 @@
+unit u_Statystyki;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.pngimage, Vcl.ExtCtrls,
+  Vcl.StdCtrls, Data.DB, Vcl.Grids, Vcl.DBGrids, Data.Win.ADODB;
+
+type
+  TfrmStatystyki = class(TForm)
+    imgStatystyki: TImage;
+    imgWygrane: TImage;
+    imgPrzegrane: TImage;
+    lblLiczbaPrzegranych: TLabel;
+    lblLiczbaWygranych: TLabel;
+    DBGrid1: TDBGrid;
+    btnPokazHistorie: TButton;
+    ADOConPokazHistorie: TADOConnection;
+    ADOTabPokazHistorie: TADOTable;
+    DataSourcePokazHistorie: TDataSource;
+    ADOQPokazHistorie: TADOQuery;
+    procedure btnPokazHistorieClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    //funkcje
+     idUzytkownika : integer;
+    //procedury
+  end;
+
+var
+  frmStatystyki: TfrmStatystyki;
+
+implementation
+
+{$R *.dfm}
+
+
+
+
+procedure TfrmStatystyki.btnPokazHistorieClick(Sender: TObject);
+begin
+ADOTabPokazHistorie.Active := true;
+ADOQPokazHistorie.SQL.Clear;
+ADOQPokazHistorie.SQL.Text:='Select * from TBL_Historia where= ' + idUzytkownika
+
+end;
+
+end.

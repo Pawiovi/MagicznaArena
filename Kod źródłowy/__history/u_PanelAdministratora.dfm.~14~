@@ -1,0 +1,318 @@
+object frmPanelAdministratora: TfrmPanelAdministratora
+  Left = 0
+  Top = 0
+  Caption = 'frmPanelAdministratora'
+  ClientHeight = 658
+  ClientWidth = 817
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 106
+  TextHeight = 14
+  object lblNazwaKlasy: TLabel
+    Left = 8
+    Top = 115
+    Width = 35
+    Height = 14
+    Caption = 'Nazwa'
+  end
+  object lblPktZyciaKlasy: TLabel
+    Left = 203
+    Top = 115
+    Width = 45
+    Height = 14
+    Caption = 'PktZycia'
+  end
+  object lblPktAtakuKlasy: TLabel
+    Left = 408
+    Top = 115
+    Width = 50
+    Height = 14
+    Caption = 'PktAtaku'
+  end
+  object lblPktObronyKlasy: TLabel
+    Left = 624
+    Top = 115
+    Width = 58
+    Height = 14
+    Caption = 'PktObrony'
+  end
+  object lblNazwaWroga: TLabel
+    Left = 8
+    Top = 395
+    Width = 35
+    Height = 14
+    Caption = 'Nazwa'
+  end
+  object lblPktZyciaWroga: TLabel
+    Left = 203
+    Top = 395
+    Width = 45
+    Height = 14
+    Caption = 'PktZycia'
+  end
+  object lblPktAtakuWroga: TLabel
+    Left = 408
+    Top = 395
+    Width = 50
+    Height = 14
+    Caption = 'PktAtaku'
+  end
+  object lblPktObronyWroga: TLabel
+    Left = 624
+    Top = 395
+    Width = 58
+    Height = 14
+    Caption = 'PktObrony'
+  end
+  object lblEdycjaKlas: TLabel
+    Left = 8
+    Top = 76
+    Width = 201
+    Height = 25
+    Caption = 'Edycja klas postaci'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lblEdycjaWrogow: TLabel
+    Left = 8
+    Top = 356
+    Width = 162
+    Height = 25
+    Caption = 'Edycja wrog'#243'w'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object DBGrid1: TDBGrid
+    Left = 7
+    Top = 176
+    Width = 802
+    Height = 153
+    DataSource = DataSourceKlasy
+    ReadOnly = True
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -12
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    OnTitleClick = DBGrid1TitleClick
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 8
+    Top = 145
+    Width = 240
+    Height = 25
+    DataSource = DataSourceKlasy
+    TabOrder = 1
+  end
+  object edtNazwaA: TDBEdit
+    Left = 49
+    Top = 112
+    Width = 121
+    Height = 22
+    DataField = 'NazwaKlasa'
+    DataSource = DataSourceKlasy
+    TabOrder = 2
+  end
+  object edtPktZyciaA: TDBEdit
+    Left = 254
+    Top = 112
+    Width = 121
+    Height = 22
+    DataField = 'PktZycia'
+    DataSource = DataSourceKlasy
+    TabOrder = 3
+  end
+  object edtPktAtakuA: TDBEdit
+    Left = 464
+    Top = 112
+    Width = 121
+    Height = 22
+    DataField = 'PktAtaku'
+    DataSource = DataSourceKlasy
+    TabOrder = 4
+  end
+  object edtPktObronyA: TDBEdit
+    Left = 688
+    Top = 112
+    Width = 121
+    Height = 22
+    DataField = 'PktObrony'
+    DataSource = DataSourceKlasy
+    TabOrder = 5
+  end
+  object DBGrid2: TDBGrid
+    Left = 8
+    Top = 456
+    Width = 801
+    Height = 153
+    DataSource = DataSourceWrogowie
+    ReadOnly = True
+    TabOrder = 6
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -12
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    OnTitleClick = DBGrid2TitleClick
+  end
+  object DBNavigator2: TDBNavigator
+    Left = 8
+    Top = 425
+    Width = 240
+    Height = 25
+    DataSource = DataSourceKlasy
+    TabOrder = 7
+  end
+  object edtNazwaAW: TDBEdit
+    Left = 49
+    Top = 392
+    Width = 121
+    Height = 22
+    DataField = 'NazwaPrzeciwnika'
+    DataSource = DataSourceWrogowie
+    TabOrder = 8
+  end
+  object edtPktZyciaAW: TDBEdit
+    Left = 254
+    Top = 392
+    Width = 121
+    Height = 22
+    DataField = 'PktZyciaW'
+    DataSource = DataSourceWrogowie
+    TabOrder = 9
+  end
+  object edtPktAtakuAW: TDBEdit
+    Left = 464
+    Top = 392
+    Width = 121
+    Height = 22
+    DataField = 'PktAtakuW'
+    DataSource = DataSourceWrogowie
+    TabOrder = 10
+  end
+  object edtPktObronyAW: TDBEdit
+    Left = 688
+    Top = 392
+    Width = 121
+    Height = 22
+    DataField = 'PktObronyW'
+    DataSource = DataSourceWrogowie
+    TabOrder = 11
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 817
+    Height = 57
+    Align = alTop
+    TabOrder = 12
+    object lblWitaj: TLabel
+      Left = 8
+      Top = 12
+      Width = 400
+      Height = 35
+      Caption = 'Witaj w panelu administratoria '
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Height = -29
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object lblNazwaKonta: TLabel
+      Left = 414
+      Top = 12
+      Width = 87
+      Height = 35
+      Caption = 'Konto'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clGreen
+      Font.Height = -29
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object btnWyloguj: TButton
+      Left = 624
+      Top = 12
+      Width = 185
+      Height = 35
+      Caption = 'Wyloguj'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -24
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+      OnClick = btnWylogujClick
+    end
+  end
+  object ADOConEdycja: TADOConnection
+    Connected = True
+    ConnectionString = 
+      'Provider=SQLNCLI11.1;Integrated Security=SSPI;Persist Security I' +
+      'nfo=False;User ID="";Initial Catalog=MagicznaArenaDB;Data Source' +
+      '="";Use Procedure for Prepare=1;Auto Translate=True;Packet Size=' +
+      '4096;Workstation ID=DESKTOP-BEHPBA2;Initial File Name="";Use Enc' +
+      'ryption for Data=False;Tag with column collation when possible=F' +
+      'alse;MARS Connection=False;DataTypeCompatibility=0;Trust Server ' +
+      'Certificate=False;Server SPN=DESKTOP-BEHPBA2;Application Intent=' +
+      'READWRITE'
+    LoginPrompt = False
+    Provider = 'SQLNCLI11.1'
+    Left = 280
+    Top = 344
+  end
+  object DataSourceKlasy: TDataSource
+    DataSet = ADOTKlasy
+    Left = 720
+    Top = 344
+  end
+  object DataSetProvider1: TDataSetProvider
+    DataSet = ADOQKlasa
+    Left = 592
+    Top = 608
+  end
+  object ADOTKlasy: TADOTable
+    Active = True
+    Connection = ADOConEdycja
+    CursorType = ctStatic
+    TableName = 'TBL_Klasy'
+    Left = 648
+    Top = 344
+  end
+  object ADOQKlasa: TADOQuery
+    Connection = ADOConEdycja
+    Parameters = <>
+    Left = 720
+    Top = 608
+  end
+  object ADOTWrogowie: TADOTable
+    Active = True
+    Connection = ADOConEdycja
+    CursorType = ctStatic
+    TableName = 'TBL_Przeciwnicy'
+    Left = 256
+    Top = 608
+  end
+  object DataSourceWrogowie: TDataSource
+    DataSet = ADOTWrogowie
+    Left = 369
+    Top = 608
+  end
+end

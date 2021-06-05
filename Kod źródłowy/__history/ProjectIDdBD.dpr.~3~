@@ -1,0 +1,24 @@
+program ProjectIDdBD;
+
+uses
+  Vcl.Forms,
+  MagicznaArenaIDdBD in 'MagicznaArenaIDdBD.pas' {LoginRejestracja},
+  u_MagicznaArena in 'u_MagicznaArena.pas' {frmMagicznaArena},
+  u_Arena in 'u_Arena.pas' {frmArena},
+  u_OProgramie in 'u_OProgramie.pas' {frmOProgramie},
+  u_Statystyki in 'u_Statystyki.pas' {frmStatystyki},
+  u_SplashScreen in 'u_SplashScreen.pas' {frmSplashScreen};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TLoginRejestracja, LoginRejestracja);
+  Application.CreateForm(TfrmMagicznaArena, frmMagicznaArena);
+  Application.CreateForm(TfrmArena, frmArena);
+  Application.CreateForm(TfrmOProgramie, frmOProgramie);
+  Application.CreateForm(TfrmStatystyki, frmStatystyki);
+  Application.CreateForm(TfrmSplashScreen, frmSplashScreen);
+  Application.Run;
+end.
